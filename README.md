@@ -11,7 +11,11 @@ Anaconda is available for Windows, Mac OS X, and Linux. You can find the install
 
 ### Running notebook
 From the project directory: 
+
 `conda create --name dlnd python=3`
+
 `source activate dlnd`
+
 `conda install numpy matplotlib pandas jupyter notebook`
+
 `jupyter notebook dlnd-your-first-neural-network.ipynb`
